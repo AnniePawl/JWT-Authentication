@@ -7,6 +7,10 @@ app.get('/', (req, res) => {
   res.send('JWT is Badass')
 });
 
+// Require Controllers
+require('./controllers/auth.js')(app);
+
+
 // Middleware
 const exphbs = require('express-handlebars');
 
