@@ -1,0 +1,22 @@
+{
+  "name": "jwt-authentication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnniePawl/JWT-Authentication.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnniePawl/JWT-Authentication/issues"
+  },
+  "homepage": "https://github.com/AnniePawl/JWT-Authentication#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
