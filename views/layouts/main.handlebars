@@ -3,12 +3,25 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Example App</title>
+  <title>Working with JWT</title>
 </head>
 
 <body>
 
   {{{body}}}
+
+  {{!-- AJAX Call --}}
+  <script>
+    function signupViaAjax() {
+      fetch("/sign-up")
+        .then(function (data) {
+          // Here you get the data to modify as you please
+        })
+        .catch(function (error) {
+          // If there is any error you will catch them here
+        });
+    }
+  </script>
 
 </body>
 

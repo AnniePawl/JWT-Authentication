@@ -14,8 +14,6 @@ require('./controllers/auth.js')(app);
 // Require Models 
 require('./models/user')(app);
 
-
-
 // Middleware
 const exphbs = require('express-handlebars');
 
@@ -26,3 +24,5 @@ app.set('view engine', 'handlebars');
 app.listen(3000, () => {
   console.log('JTW Authentication Almost in Action')
 });
+
+// Set DB
