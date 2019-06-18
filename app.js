@@ -1,14 +1,19 @@
 const express = require('express');
 const app = express();
+const port = 3000;
 
 
 // Routes 
 app.get('/', (req, res) => {
-  res.send('JWT is Badass')
+  res.render(index)
 });
 
 // Require Controllers
 require('./controllers/auth.js')(app);
+
+// Require Models 
+require('./models/user')(app);
+
 
 
 // Middleware
