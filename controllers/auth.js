@@ -1,7 +1,9 @@
 import { userInfo } from "os";
 
 // Require json web token
-var jwt = require('jsonwebtoken');
+const jwt = require('jsonwebtoken');
+const token = jwt.sign({ _id: user._id }, 'shhhhhhared-secret');
+
 
 // Signup Route
 app.get('/sign-up', (req, res) => {
