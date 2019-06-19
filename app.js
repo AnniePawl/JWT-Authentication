@@ -26,3 +26,5 @@ app.listen(3000, () => {
 });
 
 // Set DB
+const mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost/rotten-potatoes', { useNewUrlParser: true });
